@@ -1,10 +1,12 @@
+package classobject;
+
 public class Main {
 
 
     static void main() {
 
 
-        //Florians Tasse:
+        //Florians classobject.Tasse:
 
         Tasse floriansTasse = new Tasse("123dh", 250, false, new String[]{"grau", "weiß"}, "abgerundet");
 

@@ -1,3 +1,5 @@
+package classobject;
+
 import java.util.Arrays;
 import java.util.Objects;
 
@@ -23,7 +25,7 @@ public class Tasse {
         this.thermo = thermo;
         this.color = color;
         this.form = form;
-        System.out.println("Eine neue Tasse wurde erstellt!");
+        System.out.println("Eine neue classobject.Tasse wurde erstellt!");
     }
 
 
@@ -84,7 +86,7 @@ public class Tasse {
 
 //    public String toString() {
 //
-//        return "Tasse{" +
+//        return "classobject.Tasse{" +
 //                "material='" + material + '\'' +
 //                ", size=" + size +
 //                ", thermo=" + thermo +
